@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e87987e-ed3e-4d7f-a95a-9e89e21697d3" name="Changes" comment="Code Beautification &#10;Edit allMethods,replaced texts from methods with variables..." />
+    <list default="true" id="7e87987e-ed3e-4d7f-a95a-9e89e21697d3" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,9 +42,9 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "MiniORM",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Users/gomanjuk/Desktop/udemyAc/mycoolapp/pom.xml",
+    "last_opened_file_path": "D:/DANILO/Java-Programing/FundamentalsMiniORM",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -179,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722500969224</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="commit">
+      <option name="closed" value="true" />
+      <created>1722930035792</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722930035792</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,7 +203,8 @@
     <MESSAGE value="getConnection add Annotation lombok Getter" />
     <MESSAGE value="add test String for test doAlter" />
     <MESSAGE value="Code Beautification &#10;Edit allMethods,replaced texts from methods with variables..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Code Beautification &#10;Edit allMethods,replaced texts from methods with variables..." />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
