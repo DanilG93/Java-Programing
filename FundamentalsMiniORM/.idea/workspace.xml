@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e87987e-ed3e-4d7f-a95a-9e89e21697d3" name="Changes" comment="Code Beautification &#10;Edit allMethods,replaced texts from methods with variables..." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="MiniORM" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DanilG93&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DanilG93/Java-Programing.git&quot;,
+    &quot;accountId&quot;: &quot;1d3c0d43-c239-407d-9a20-e6bb88173724&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2k1lNtSS7TURwcOpL4h0d1J4V5D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "MiniORM",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Users/gomanjuk/Desktop/udemyAc/mycoolapp/pom.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e87987e-ed3e-4d7f-a95a-9e89e21697d3" name="Changes" comment="" />
+      <created>1722458926540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722458926540</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Creating method doCreate,delete,doAlter">
+      <option name="closed" value="true" />
+      <created>1722466285767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722466285767</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented method doCreate,delete,doAlter">
+      <option name="closed" value="true" />
+      <created>1722466332979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722466332979</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Testing method doCreate,delete,doAlter">
+      <option name="closed" value="true" />
+      <created>1722466364927</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722466364927</updated>
+    </task>
+    <task id="LOCAL-00004" summary="getConnection add Lombok annotation @Getter">
+      <option name="closed" value="true" />
+      <created>1722466439056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722466439056</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add @Column(name = &quot;test&quot;)&#10;     private String test;   --&gt; for test alterTable">
+      <option name="closed" value="true" />
+      <created>1722466497530</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722466497530</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add private String test;   --&gt; for test alterTable">
+      <option name="closed" value="true" />
+      <created>1722467546349</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722467546349</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add private String test;   --&gt; for test alterTable">
+      <option name="closed" value="true" />
+      <created>1722467558526</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722467558526</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create doCreate,doAlter,delete">
+      <option name="closed" value="true" />
+      <created>1722467606461</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722467606461</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Create doCreate,doAlter,delete">
+      <option name="closed" value="true" />
+      <created>1722468772553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722468772553</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Implemented doCreate,doAlter,delete">
+      <option name="closed" value="true" />
+      <created>1722468790618</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722468790618</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Test">
+      <option name="closed" value="true" />
+      <created>1722468805995</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722468805995</updated>
+    </task>
+    <task id="LOCAL-00012" summary="getConnection add Annotation lombok Getter">
+      <option name="closed" value="true" />
+      <created>1722468852471</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722468852471</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add test String for test doAlter">
+      <option name="closed" value="true" />
+      <created>1722468877124</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722468877124</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Code Beautification &#10;Edit allMethods,replaced texts from methods with variables...">
+      <option name="closed" value="true" />
+      <created>1722500779262</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722500779262</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Code Beautification &#10;Edit allMethods,replaced texts from methods with variables...">
+      <option name="closed" value="true" />
+      <created>1722500969224</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722500969224</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating method doCreate,delete,doAlter" />
+    <MESSAGE value="Implemented method doCreate,delete,doAlter" />
+    <MESSAGE value="Testing method doCreate,delete,doAlter" />
+    <MESSAGE value="getConnection add Lombok annotation @Getter" />
+    <MESSAGE value="add @Column(name = &quot;test&quot;)&#10;     private String test;   --&gt; for test alterTable" />
+    <MESSAGE value="add private String test;   --&gt; for test alterTable" />
+    <MESSAGE value="Create doCreate,doAlter,delete" />
+    <MESSAGE value="Implemented doCreate,doAlter,delete" />
+    <MESSAGE value="Test" />
+    <MESSAGE value="getConnection add Annotation lombok Getter" />
+    <MESSAGE value="add test String for test doAlter" />
+    <MESSAGE value="Code Beautification &#10;Edit allMethods,replaced texts from methods with variables..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Beautification &#10;Edit allMethods,replaced texts from methods with variables..." />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+</project>
