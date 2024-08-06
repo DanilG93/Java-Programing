@@ -32,7 +32,7 @@ public class Main {
 //        User first = entityManager.findFirst(User.class);
 //        System.out.println(first);
 //
-        entityManager.doCreate(User.class);
-        entityManager.delete(user,"id = 2");
+//        entityManager.doCreate(User.class);
+//        entityManager.delete(user,"id = 2");
     }
 }
