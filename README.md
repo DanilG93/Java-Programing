@@ -12,7 +12,7 @@ Briefly about the tasks ->
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-   3. Pathfinder -->
+   3. SpringBootAndSpringMVC -- Pathfinder -->
       ---> Pathfinder is an application somewhat similar to social networks.
            Emphasis on travel and memories. Exercise softuni.rs                               // in progress... ///
 
