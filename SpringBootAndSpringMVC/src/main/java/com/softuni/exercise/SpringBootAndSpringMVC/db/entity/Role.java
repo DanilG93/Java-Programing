@@ -1,6 +1,6 @@
-package com.softuni.exercise.SpringBootAndSpringMVC.entity;
+package com.softuni.exercise.SpringBootAndSpringMVC.db.entity;
 
-import com.softuni.exercise.SpringBootAndSpringMVC.entity.enums.NameOfRole;
+import com.softuni.exercise.SpringBootAndSpringMVC.db.entity.enums.NameOfRole;
 import jakarta.persistence.*;
 import lombok.Data;
 
