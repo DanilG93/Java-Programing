@@ -1,11 +1,10 @@
-package com.softuni.exercise.SpringBootAndSpringMVC.entity;
+package com.softuni.exercise.SpringBootAndSpringMVC.db.entity;
 
-import com.softuni.exercise.SpringBootAndSpringMVC.entity.enums.Level;
+import com.softuni.exercise.SpringBootAndSpringMVC.db.entity.enums.Level;
 import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.List;
-import java.util.Set;
 
 @Data
 @Entity

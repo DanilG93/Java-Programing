@@ -1,4 +1,4 @@
-package com.softuni.exercise.SpringBootAndSpringMVC.entity;
+package com.softuni.exercise.SpringBootAndSpringMVC.db.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
