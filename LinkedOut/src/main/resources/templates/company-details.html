@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>LinkedOut</title>
@@ -33,16 +33,27 @@
                 <div class="justify-content-center">
                     <h1>Company Details</h1>
                 </div>
-                <div class="row">
+                <div th:if="${company != null}" class="row">
                     <div class="col-md-6 bg-dark"><img src="/pic/company.png" height="350px"></div>
-                    <div class="col-md-6 bg-dark">
+                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center bg-dark">
                         <h2>Company</h2>
-                        <h4>Name: {name}</h4>
-                        <h4>Town: {town}</h4>
-                        <h4>Description: {description}</h4>
-                        <h4>Budget: {budget}</h4>
+                        <h4>Name: <span th:text="${company.name}">Company Name</span></h4>
+                        <h4>Town: <span th:text="${company.town}">Company town</span></h4>
+                        <h4>Description: <p th:text="${company.description}">Company description</p></h4>
+                        <h4>Budget: <span th:text="${company.budget}">Company budget</span></h4>
+                        <form th:action="@{/companies/delete}" method="post">
+                            <input type="hidden" name="id" th:value="${company.id}" />
+                            <button type="submit" class="btn btn-danger">Delete company</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div  th:if="${error}" class="row">
+                    <div class="col-md-6 bg-dark"><img src="/pic/company.png" height="350px"></div>
+                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center bg-dark">
+                        <h4 th:text="${error}">Error message here if company is not found.</h4>
                         <div class="align-bottom"><a class="btn btn-danger align-bottom"
-                                                     href="/">Delete company</a>
+                                                     href="/companies/all">Return to list company!!</a>
                         </div>
                     </div>
                 </div>
