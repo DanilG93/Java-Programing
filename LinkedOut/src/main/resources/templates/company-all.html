@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>LinkedOut</title>
@@ -30,14 +30,17 @@
         <h2 class="text-center text-dark bg-light rounded-circle mt-5">All companies</h2>
         <hr style="width: 50%"/>
         <div class='row mb-4 d-flex justify-content-around'>
-          
-                <div class="col-md-4 d-flex flex-column bg-text mb-3 rounded-circle">
-                    <h2>Company: {name}</h2>
-                    <h4>Town: {town}</h4>
-                    <h4>Description: {description - first 5 char} ...</h4>
-                    <h4><a class="btn-block" href="/">Detail info</a></h4>
-                </div>
-          
+
+            <div th:each="company : ${companyList}" class="col-md-4 d-flex flex-column bg-text mb-3 rounded-circle">
+                <h4>Company: <span th:text="${company.name}"></span></h4>
+                <h5>Town: <span th:text="${company.town}"></span></h5>
+                <h5>Description: <span
+                        th:text="${#strings.length(company.description)
+                        > 5 ? #strings.substring(company.description, 0, 5)
+                        + ' ...' : company.description}"></span>
+                </h5>
+                <h4><a class="btn-block" th:href="@{/companies/details/{id}(id=${company.id})}">Detail info</a></h4>
+            </div>
         </div>
     </div>
 </main>

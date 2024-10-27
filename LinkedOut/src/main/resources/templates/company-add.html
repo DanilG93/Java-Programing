@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>LinkedOut</title>
     <link rel="stylesheet" href="/css/reset-css.css"/>
     <link rel="stylesheet" href="/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/css/style.css"/>
+
+
+    <style>
+        .error {
+            color: red; /* Set the text color to red */
+            font-weight: bold; /* Make the text bold */
+        }
+    </style>
+
 </head>
 <body>
 
@@ -31,35 +40,38 @@
         <div class="justify-content-center">
             <h1>Add Company</h1>
         </div>
-        <form class="m-md-auto w-50 text-center">
+        <form th:action="@{/companies/add}" th:object="${companyDTO}" method="post" class="m-md-auto w-50 text-center">
+
             <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" class="form-control text-center" id="name" aria-describedby="nameHelp" 
-				name="name"/>
-                <small>Error message</small>
+                <input type="text" th:field="*{name}" class="form-control text-center" id="name"
+                       aria-describedby="nameHelp"
+                       name="name"/>
+                <small class="error" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name error</small>
             </div>
 
             <div class="form-group">
                 <label for="town">Town</label>
-                <input type="text" class="form-control text-center" id="town" aria-describedby="town" 
-				name="town"/>
-                <small>Error message</small>
+                <input type="text" th:field="*{town}" class="form-control text-center" id="town" aria-describedby="town"
+                       name="town"/>
+                <small class="error" th:if="${#fields.hasErrors('town')}" th:errors="*{town}">Town error</small>
             </div>
 
             <div class="form-group">
                 <label for="description">Description</label>
-                <input type="text" class="form-control text-center" 
-				id="description" aria-describedby="description" name="description"/>
-                <small>Error message</small>
+                <input type="text" th:field="*{description}" class="form-control text-center"
+                       id="description" aria-describedby="description" name="description"/>
+                <small class="error" th:if="${#fields.hasErrors('description')}" th:errors="*{description}">Description
+                    error</small>
             </div>
 
             <div class="form-group">
                 <label for="budget">Budget</label>
-                <input type="number" min="0" class="form-control text-center" 
-				id="budget" aria-describedby="town" name="town"/>
-                <small>Budget</small>
+                <input type="number" th:field="*{budget}" class="form-control text-center"
+                       id="budget" aria-describedby="budget" name="budget"/>
+                <small class="error" th:if="${#fields.hasErrors('budget')}" th:errors="*{budget}">Budget error</small>
             </div>
-
+            <small class="error" th:if="${#fields.hasErrors('budget')}" th:errors="*{budget}">Budget error</small>
             <button type="submit" class="btn btn-secondary">Add Company</button>
         </form>
     </main>
