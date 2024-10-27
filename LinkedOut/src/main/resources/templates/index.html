@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" >
 <head>
     <meta charset="UTF-8">
     <title>LinkedOut</title>
@@ -33,7 +34,9 @@
                 <div class="justify-content-center">
                     <h1>Welcome to LinkedOut Application</h1>
                 </div>
-                <div>Last update of Database: {Current date and time}</div>
+                <div>Last update of Database: <span th:text="${#dates.createNow()}"></span>
+                </div>
+
 
             </main>
         </div>
