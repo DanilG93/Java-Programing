@@ -2,11 +2,15 @@ package com.softuni.exercise.SpringBootAndSpringMVC.db.entity;
 
 import com.softuni.exercise.SpringBootAndSpringMVC.db.entity.enums.NameOfRole;
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
 import java.util.List;
 
-@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 @Entity
 @Table(name = "roles")
 public class Role {

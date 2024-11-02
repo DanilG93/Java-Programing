@@ -1,9 +1,13 @@
 package com.softuni.exercise.SpringBootAndSpringMVC.db.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
-@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 @Entity
 @Table(name = "pictures")
 public class Picture {

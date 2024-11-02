@@ -1,11 +1,15 @@
 package com.softuni.exercise.SpringBootAndSpringMVC.db.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
 import java.util.List;
 
-@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 @Entity
 @Table(name = "categories")
 public class Category {
