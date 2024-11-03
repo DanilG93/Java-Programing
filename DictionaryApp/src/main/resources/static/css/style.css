@@ -76,3 +76,19 @@ footer {
 .badge-secondary{
     background-color: #720a75;
 }
+
+.btn-remove {
+    background: none;
+    border: none;
+    color: rgb(220,53,69);
+    cursor: pointer;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1em;
+    transition: color 0.3s, font-weight 0.3s, text-decoration 0.3s;
+}
+
+.btn-remove:hover {
+   color: darkred;
+   text-decoration: underline;
+}
