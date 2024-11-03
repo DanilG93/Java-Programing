@@ -24,3 +24,5 @@ Briefly about the tasks ->
            Dictionary App is a valuable tool for students, writers, professionals, and anyone seeking to enrich their language skills.
            It provides an extensive database of words and their meanings, making it a reliable companion for German, French, Spanish and Italian.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+  5. LinkedOut app    --      ### Thymeleaf and Validations - Exercise course @ SoftUni Global ###
+     ---> This application is an exercise. Adding, viewing ... employees, companies individually or in groups.
