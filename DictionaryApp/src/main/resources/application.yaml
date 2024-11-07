@@ -1,24 +1,29 @@
 spring:
-  application:
-    name: DictionaryApp
-
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dictionary?useSSL=false&createDatabaseIfNotExist=true
-    username: root
-    password: 12345
-
   jpa:
-    database-platform: org.hibernate.dialect.MySQLDialect
     properties:
       hibernate:
-        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: 'TRUE'
     hibernate:
       ddl-auto: update
-
+    open-in-view: 'false'
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: 'true'
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: ''
+    username: ''
+    url: jdbc:mysql://localhost:3306/dictionary?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true&serverTimezone=UTC
 logging:
   level:
-    org: WARN                   # Disable the default loggers for org
-    blog: WARN                  # Disable the default loggers for blog
-    org.hibernate.SQL: DEBUG     # Show SQL executed
-    org.hibernate.type.descriptor: TRACE  # Show parameter bindings
+    org:
+      hibernate:
+        type:
+          descriptor: TRACE
+        SQL: DEBUG
+      nodeValue: WARN
+    blog: WARN
+server:
+  port: 8080
