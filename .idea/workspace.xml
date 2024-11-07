@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca1f0d67-a09e-414f-9482-23193fdd394a" name="Changes" comment="upadte" />
+    <list default="true" id="ca1f0d67-a09e-414f-9482-23193fdd394a" name="Changes" comment="upadte">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +37,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -63,10 +64,10 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "danil",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/DANILO/Java-Programing/DictionaryApp/pom.xml"
+    "last_opened_file_path": "D:/DANILO/Java-Programing/BonAppetit/pom.xml"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -203,7 +204,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731002659230</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="upadte">
+      <option name="closed" value="true" />
+      <created>1731003423192</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731003423192</updated>
+    </task>
+    <task id="LOCAL-00017" summary="upadte">
+      <option name="closed" value="true" />
+      <created>1731003493974</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731003493974</updated>
+    </task>
+    <task id="LOCAL-00018" summary="upadte">
+      <option name="closed" value="true" />
+      <created>1731003704539</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731003704539</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +249,7 @@
     <MESSAGE value="first commit.." />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="upadte" />
+    <option name="LAST_COMMIT_MESSAGE" value="upadte" />
   </component>
 </project>
