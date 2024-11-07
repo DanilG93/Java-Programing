@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e87987e-ed3e-4d7f-a95a-9e89e21697d3" name="Changes" comment="commit" />
+    <list default="true" id="7e87987e-ed3e-4d7f-a95a-9e89e21697d3" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entites/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entites/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orm/DbContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/orm/DbContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orm/EntityManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/orm/EntityManager.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,10 +47,10 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "danil",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/DANILO/Java-Programing",
+    "last_opened_file_path": "D:/DANILO/Java-Programing/LinkedOut/pom.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
