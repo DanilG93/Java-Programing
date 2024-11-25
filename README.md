@@ -17,4 +17,14 @@ Briefly about the tasks ->
            Emphasis on travel and memories. Exercise softuni.rs                               // in progress... ///
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
+
+   4. Spring Fundamentals Exam Preparation -- BonAppetit App -->
+      ---> Introducing the Bon App-étit, your culinary companion for exploring new tastes and connecting with
+           fellow food enthusiasts. This app is all about taking your cooking experience to the next level by offering a
+           wide range of recipes to suit your palate. Browse through hundreds of innovative recipes created by passionate
+           chefs and home cooks. You can add your favorite dishes to your personal recipe collection, share your own
+           culinary creations, and discover exciting flavor combinations. Unleash your inner chef and embark on a
+           gastronomic journey with Bon App-étit!
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
