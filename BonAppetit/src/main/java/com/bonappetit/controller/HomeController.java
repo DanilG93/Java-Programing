@@ -32,14 +32,13 @@ public class HomeController {
     @GetMapping("/home")
     public String getHomePage(Model model, Authentication authentication) {
 
-        System.out.println("xaaxxa");
         model.addAttribute("username", authentication.getName());
 
         model.addAttribute("desserts", recipeService.findAllByCategoryName(CategoryName.DESSERT));
         model.addAttribute("cocktails", recipeService.findAllByCategoryName(CategoryName.COCKTAIL));
         model.addAttribute("mainDishes", recipeService.findAllByCategoryName(CategoryName.MAIN_DISH));
         model.addAttribute("favourites", userService.findByUsername(authentication.getName()).getFavouriteRecipes());
-        System.out.println("soxaxa");
+
         return "home";
     }
 
