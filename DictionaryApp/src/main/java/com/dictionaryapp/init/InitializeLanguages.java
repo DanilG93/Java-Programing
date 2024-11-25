@@ -3,21 +3,25 @@ package com.dictionaryapp.init;
 import com.dictionaryapp.model.entity.Language;
 import com.dictionaryapp.model.entity.LanguageName;
 import com.dictionaryapp.repo.LanguageRepository;
+import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
 
-@AllArgsConstructor
+
 @Component
+@AllArgsConstructor
+
 public class InitializeLanguages implements CommandLineRunner {
 
-    private LanguageRepository languageRepository;
-    private List<Language> languages;
+    private final LanguageRepository languageRepository;
+    private final List<Language> languages;
 
     @Override
-    public void run(String... args) {
+    @Transactional
+    public void run(String... args) throws Exception{
         Language italian = Language.builder()
                 .name(LanguageName.ITALIAN)
                 .description(LanguageName.ITALIAN.getDescription())

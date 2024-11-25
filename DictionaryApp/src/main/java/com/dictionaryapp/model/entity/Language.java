@@ -21,7 +21,6 @@ public class Language {
 
     @Column(unique = true)
     @Enumerated(EnumType.STRING)
-    @NotBlank
     private LanguageName name;
 
     @Column(nullable = false)
