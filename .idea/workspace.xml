@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca1f0d67-a09e-414f-9482-23193fdd394a" name="Changes" comment="upadte">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BonAppetit/src/main/java/com/bonappetit/model/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BonAppetit/src/main/java/com/bonappetit/model/entity/CategoryName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BonAppetit/src/main/java/com/bonappetit/model/entity/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BonAppetit/src/main/java/com/bonappetit/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BonAppetit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BonAppetit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BonAppetit/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/BonAppetit/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +69,11 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "danil",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/DANILO/Java-Programing/BonAppetit/pom.xml"
+    "last_opened_file_path": "D:/DANILO/Java-Programing"
   }
 }]]></component>
   <component name="RecentsManager">
