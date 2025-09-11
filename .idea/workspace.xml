@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca1f0d67-a09e-414f-9482-23193fdd394a" name="Changes" comment="update README" />
+    <list default="true" id="ca1f0d67-a09e-414f-9482-23193fdd394a" name="Changes" comment="update README">
+      <change beforePath="$PROJECT_DIR$/vezbanje/src/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vezbanje/src/ShapeCalculator.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,18 +45,17 @@
     &quot;assignee&quot;: &quot;DanilG93&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/DanilG93/Java-Programing.git&quot;,
-    &quot;accountId&quot;: &quot;f63a4ed9-eb8e-4acd-a941-55725a1223e3&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DanilG93/Java-Programing.git",
+    "accountId": "ec75d6bd-c39b-41d2-a441-3daded5d3505"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2kH7oJGmWCk7ZHlLkXy85CBG9B3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,10 +65,10 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "danil",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/DANILO/Java-Programing/PaintingsCollectors-App/pom.xml"
+    "last_opened_file_path": "D:/DANILO/Java-Programing"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -259,7 +261,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733056557254</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update README">
+      <option name="closed" value="true" />
+      <created>1757608184740</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1757608184740</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update README">
+      <option name="closed" value="true" />
+      <created>1757608296801</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1757608296801</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
