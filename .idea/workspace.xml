@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca1f0d67-a09e-414f-9482-23193fdd394a" name="Changes" comment="update README">
-      <change beforePath="$PROJECT_DIR$/vezbanje/src/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vezbanje/src/ShapeCalculator.java" beforeDir="false" />
+    <list default="true" id="ca1f0d67-a09e-414f-9482-23193fdd394a" name="Changes" comment="Add exam templates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +276,47 @@
       <option name="project" value="LOCAL" />
       <updated>1757608296801</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="update README">
+      <option name="closed" value="true" />
+      <created>1757608386944</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1757608386944</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update README">
+      <option name="closed" value="true" />
+      <created>1757608501080</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1757608501080</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update README">
+      <option name="closed" value="true" />
+      <created>1757608546723</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1757608546723</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add exam templates">
+      <option name="closed" value="true" />
+      <created>1757608642460</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1757608642460</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add exam templates">
+      <option name="closed" value="true" />
+      <created>1757608704680</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1757608704680</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +341,7 @@
     <MESSAGE value="update README.md" />
     <MESSAGE value="update" />
     <MESSAGE value="update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README" />
+    <MESSAGE value="Add exam templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add exam templates" />
   </component>
 </project>
