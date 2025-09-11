@@ -17,7 +17,7 @@ Briefly about the tasks ->
    ---> Pathfinder is an application somewhat similar to social networks.
         Emphasis on travel and memories. Exercise softuni.rs                               // in progress... ///
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------[BonAppetit](BonAppetit)-------------------------------------------------------------------------
 
 4. Spring Fundamentals Exam Preparation -- BonAppetit App -->
    ---> Introducing the Bon App-étit, your culinary companion for exploring new tastes and connecting with
