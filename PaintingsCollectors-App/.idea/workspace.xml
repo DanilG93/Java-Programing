@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abda8a3d-d899-4af2-b816-bb36d80b6576" name="Changes" comment="update..." />
+    <list default="true" id="abda8a3d-d899-4af2-b816-bb36d80b6576" name="Changes" comment="update...">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/controller/PaintingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/repository/PaintingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/repository/StyleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/service/PaintingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/service/StyleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonAppetit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BonAppetit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonAppetit/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../BonAppetit/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonAppetit/target/classes/com/bonappetit/config/ThymeleafConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonAppetit/target/classes/com/bonappetit/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BonAppetit/target/classes/com/bonappetit/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonAppetit/target/classes/com/bonappetit/model/DTO/UserLoginDTO$UserLoginDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BonAppetit/target/classes/com/bonappetit/model/DTO/UserLoginDTO$UserLoginDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonAppetit/target/classes/com/bonappetit/model/DTO/UserLoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BonAppetit/target/classes/com/bonappetit/model/DTO/UserLoginDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/PaintingsCollectorsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/PaintingsCollectorsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/paintingscollectors/PaintingsCollectorsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/paintingscollectors/PaintingsCollectorsApplication.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,31 +88,32 @@
     "Spring Boot.ResellerApplication.executor": "Run",
     "git-widget-placeholder": "danil",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/DANILO/Java-Programing/PaintingsCollectors-App/src/main/java/com/paintingscollectors/model/entity",
+    "last_opened_file_path": "D:/Users/gomanjuk/Desktop/proba za pro0jekat/daniloVezba/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "terminal",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DANILO\Java-Programing\PaintingsCollectors-App" />
       <recent name="D:\DANILO\Java-Programing\PaintingsCollectors-App\src\main\java\com\paintingscollectors\model\entity" />
       <recent name="C:\Users\User\Videos\PaintingsCollectors-App\src\main\java\com\paintingscollectors\model" />
       <recent name="C:\Users\User\Videos\PaintingsCollectors-App\src\main\java\com\paintingscollectors\service" />
       <recent name="C:\Users\User\Videos\PaintingsCollectors-App\src\main\java\com\paintingscollectors\vallidation" />
-      <recent name="C:\Users\User\Videos\PaintingsCollectors-App\src\main\java\com\resellerapp\repository" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\DANILO\Java-Programing\PaintingsCollectors-App\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.paintingscollectors.config" />
       <recent name="com.resellerapp.config" />
       <recent name="com.resellerapp.util" />
     </key>
@@ -155,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733056672597</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update...">
+      <option name="closed" value="true" />
+      <created>1733059800655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733059800655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
