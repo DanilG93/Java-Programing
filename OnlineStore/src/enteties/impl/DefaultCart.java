@@ -18,7 +18,7 @@ public class DefaultCart implements Cart {
 
     @Override
     public boolean isEmpty() {
-        if (products == null) {
+        if (products == null || products.length == 0) {
             return true;
         }
 

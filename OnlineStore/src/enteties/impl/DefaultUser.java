@@ -57,13 +57,17 @@ public class DefaultUser implements User {
 
     @Override
     public void setPassword(String password) {
-        if (password == null) return;
+        if (password == null) {
+            return;
+        }
         this.password = password;
     }
 
     @Override
     public void setEmail(String newEmail) {
-        if (newEmail == null) return;
+        if (newEmail == null) {
+            return;
+        }
         this.email = newEmail;
     }
 
