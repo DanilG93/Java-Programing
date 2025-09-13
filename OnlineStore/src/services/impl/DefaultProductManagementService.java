@@ -48,7 +48,11 @@ public class DefaultProductManagementService implements ProductManagementService
 
 	@Override
 	public Product getProductById(int productIdToAddToCart) {
-		// <write your code here>
+        for (Product product : products) {
+            if (product != null && product.getId() == productIdToAddToCart) {
+                return product;
+            }
+        }
 		return null;
 	}
 
