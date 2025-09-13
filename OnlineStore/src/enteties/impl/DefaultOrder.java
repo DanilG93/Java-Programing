@@ -4,49 +4,52 @@ package enteties.impl;
 import enteties.Order;
 import enteties.Product;
 
+import java.util.Arrays;
+
 public class DefaultOrder implements Order {
 
-	private static final int AMOUNT_OF_DIGITS_IN_CREDIT_CARD_NUMBER = 16;
-	
-	private String creditCardNumber;
-	private Product[] products;
-	private int customerId;
+    private static final int AMOUNT_OF_DIGITS_IN_CREDIT_CARD_NUMBER = 16;
 
-	@Override
-	public boolean isCreditCardNumberValid(String creditCardNumber) {
-		// <write your code here>
-		return false;
-	}
+    private String creditCardNumber;
+    private Product[] products;
+    private int customerId;
 
-	@Override
-	public void setCreditCardNumber(String creditCardNumber) {
-		// <write your code here>
-	}
+    @Override
+    public boolean isCreditCardNumberValid(String creditCardNumber) {
+        return creditCardNumber.length() == AMOUNT_OF_DIGITS_IN_CREDIT_CARD_NUMBER &&
+                !creditCardNumber.contains(" ") && Long.parseLong(creditCardNumber) > 0;
+    }
 
-	@Override
-	public void setProducts(Product[] products) {
-		// <write your code here>
-	}
+    @Override
+    public void setCreditCardNumber(String creditCardNumber) {
+        if (creditCardNumber == null) {
+            return;
+        }
+        this.creditCardNumber = creditCardNumber;
+    }
 
-	@Override
-	public void setCustomerId(int customerId) {
-		// <write your code here>
-	}
+    @Override
+    public void setProducts(Product[] products) {
+        this.products = products;
+    }
+
+    @Override
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
 
 
-	@Override
-	public int getCustomerId() {
-		return this.customerId;
-	}
-	
-	@Override
-	public String toString() {
-		// <write your code here>
-		return null;
-	}
+    @Override
+    public int getCustomerId() {
+        return this.customerId;
+    }
 
-	
-	
-	
+    @Override
+    public String toString() {
+        return "Order: customer id - " + this.customerId + "\t" +
+                "credit card number - " + this.creditCardNumber + "\t" +
+                "products - " + Arrays.toString(this.products);
+    }
+
 
 }
