@@ -28,7 +28,6 @@ public class DefaultCart implements Cart {
             }
         }
 
-
         return true;
     }
 
