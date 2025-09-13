@@ -6,62 +6,73 @@ import enteties.User;
 public class DefaultUser implements User {
 
 
-	// <write your code here>
-	
-	public DefaultUser() {
-	}
-	
-	public DefaultUser(String firstName, String lastName, String password, String email) {
-		// <write your code here>
-	}
+    private static int userCounter = 0;
 
-	@Override
-	public String getFirstName() {
-		// <write your code here>
-		return null;
-	}
+    private int id;
+    private String firstName;
+    private String lastName;
+    private String password;
+    private String email;
 
-	@Override
-	public String getLastName() {
-		// <write your code here>
-		return null;
-	}
+    {
+        id = ++userCounter;
+    }
 
-	@Override
-	public String getPassword() {
-		// <write your code here>
-		return null;
-	}
+    public DefaultUser() {
+    }
 
-	@Override
-	public String getEmail() {
-		// <write your code here>
-		return null;
-	}
-	
-	@Override
-	public String toString() {
-		// <write your code here>
-		return null;
-	}
+    public DefaultUser(String firstName, String lastName, String password, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.password = password;
+        this.email = email;
+    }
 
-	@Override
-	public void setPassword(String password) {
-		// <write your code here>
-	}
+    @Override
+    public String getFirstName() {
+        return this.firstName;
+    }
 
-	@Override
-	public void setEmail(String newEmail) {
-		// <write your code here>
-	}
+    @Override
+    public String getLastName() {
+        return this.lastName;
+    }
 
-	@Override
-	public int getId() {
-		// <write your code here>
-		return 0;
-	}
-	
-	void clearState() {
-		// <write your code here>
-	}
+    @Override
+    public String getPassword() {
+        return this.password;
+    }
+
+    @Override
+    public String getEmail() {
+        return this.email;
+    }
+
+    @Override
+    public String toString() {
+        return "First Name: " + this.getFirstName() + "\t\t" +
+                "Last Name: " + this.getLastName() + "\t\t" +
+                "Email: " + this.getEmail();
+    }
+
+    @Override
+    public void setPassword(String password) {
+        if (password == null) return;
+        this.password = password;
+    }
+
+    @Override
+    public void setEmail(String newEmail) {
+        if (newEmail == null) return;
+        this.email = newEmail;
+    }
+
+    @Override
+    public int getId() {
+        return this.id;
+    }
+
+    void clearState() {
+       userCounter = 0;
+    }
 }
