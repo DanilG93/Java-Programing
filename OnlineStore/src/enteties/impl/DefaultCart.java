@@ -62,6 +62,7 @@ public class DefaultCart implements Cart {
         return nonNullProducts;
     }
 
+
     @Override
     public void clear() {
         products = new Product[DEFAULT_PRODUCT_CAPACITY];
