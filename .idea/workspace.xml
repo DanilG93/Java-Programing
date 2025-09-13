@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca1f0d67-a09e-414f-9482-23193fdd394a" name="Changes" comment="Add exam templates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/configs/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/configs/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/enteties/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/enteties/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/enteties/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/enteties/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/enteties/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/enteties/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/enteties/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/enteties/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/enteties/impl/DefaultCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/enteties/impl/DefaultCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/enteties/impl/DefaultOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/enteties/impl/DefaultOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/enteties/impl/DefaultProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/enteties/impl/DefaultProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/enteties/impl/DefaultUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/enteties/impl/DefaultUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/impl/ChangeEmailMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/impl/ChangeEmailMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/impl/ChangePasswordMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/impl/ChangePasswordMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/impl/CheckoutMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/impl/CheckoutMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/impl/CustomerListMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/impl/CustomerListMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/impl/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/impl/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/impl/MyOrdersMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/impl/MyOrdersMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/impl/ProductCatalogMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/impl/ProductCatalogMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/impl/SettingsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/impl/SettingsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/impl/SignInMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/impl/SignInMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/impl/SignOutMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/impl/SignOutMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/menu/impl/SignUpMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/menu/impl/SignUpMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/services/OrderManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/services/OrderManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/services/ProductManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/services/ProductManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/services/UserManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/services/UserManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/services/impl/DefaultOrderManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/services/impl/DefaultOrderManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/services/impl/DefaultProductManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/services/impl/DefaultProductManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineStore/src/services/impl/DefaultUserManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineStoreOld/src/main/java/com/services/impl/DefaultUserManagementService.java" afterDir="false" />
-    </list>
+    <list default="true" id="ca1f0d67-a09e-414f-9482-23193fdd394a" name="Changes" comment="Add exam templates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +65,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "danil",
+    "git-widget-placeholder": "#24 on danil",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/DANILO/Java-Programing",
