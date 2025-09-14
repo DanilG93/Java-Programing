@@ -4,7 +4,8 @@ package services.impl;
 import enteties.User;
 import services.UserManagementService;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DefaultUserManagementService implements UserManagementService {
 	
@@ -12,15 +13,13 @@ public class DefaultUserManagementService implements UserManagementService {
 	private static final String EMPTY_EMAIL_ERROR_MESSAGE = "You have to input email to register. Please, try one more time";
 	private static final String NO_ERROR_MESSAGE = "";
 	
-	private static final int DEFAULT_USERS_CAPACITY = 10;
-	
 	private static DefaultUserManagementService instance;
 
-    private User[] users;
+    private List<User> users;
     private int lastUserIndex;
 
     {
-        users = new User[DEFAULT_USERS_CAPACITY];
+        users = new ArrayList<>();
     }
 
 	private DefaultUserManagementService() {
@@ -37,11 +36,7 @@ public class DefaultUserManagementService implements UserManagementService {
             return errorMessage;
         }
 
-        if (users.length <= lastUserIndex) {
-            users = Arrays.copyOf(users, users.length << 1);
-        }
-
-        users[lastUserIndex++] = user;
+        users.add(user);
         return NO_ERROR_MESSAGE;
     }
 
@@ -67,25 +62,8 @@ public class DefaultUserManagementService implements UserManagementService {
     }
 
 
-    @Override
-    public User[] getUsers() {
-        int nonNullUsersAmount = 0;
-        for (User user : users) {
-            if (user != null) {
-                nonNullUsersAmount++;
-            }
-        }
-
-        User[] nonNullUsers = new User[nonNullUsersAmount];
-
-        int index = 0;
-        for (User user : users) {
-            if (user != null) {
-                nonNullUsers[index++] = user;
-            }
-        }
-
-        return nonNullUsers;
+    public List<User> getUsers() {
+        return this.users;
     }
 
     @Override
@@ -99,7 +77,6 @@ public class DefaultUserManagementService implements UserManagementService {
     }
 
     void clearServiceState() {
-        lastUserIndex = 0;
-        users = new User[DEFAULT_USERS_CAPACITY];
+       users.clear();
     }
 }

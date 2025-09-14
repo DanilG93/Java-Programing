@@ -8,6 +8,7 @@ import menu.Menu;
 import services.ProductManagementService;
 import services.impl.DefaultProductManagementService;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class ProductCatalogMenu implements Menu {
@@ -72,7 +73,7 @@ public class ProductCatalogMenu implements Menu {
     }
 
     private void printProductsToConsole() {
-        Product[] products = productManagementService.getProducts();
+        List<Product> products = productManagementService.getProducts();
         for (Product product : products) {
             System.out.println(product);
         }
@@ -80,8 +81,7 @@ public class ProductCatalogMenu implements Menu {
 
     private Product fetchProduct(String userInput) {
         int productIdToAddToCart = Integer.parseInt(userInput);
-        Product productToAddToCart = productManagementService.getProductById(productIdToAddToCart);
-        return productToAddToCart;
+        return productManagementService.getProductById(productIdToAddToCart);
     }
 
     private void processAddToCart(Product productToAddToCart) {
