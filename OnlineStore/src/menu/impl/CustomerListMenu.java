@@ -7,6 +7,8 @@ import menu.Menu;
 import services.UserManagementService;
 import services.impl.DefaultUserManagementService;
 
+import java.util.List;
+
 public class CustomerListMenu implements Menu {
 
     private ApplicationContext context;
@@ -20,15 +22,16 @@ public class CustomerListMenu implements Menu {
     @Override
     public void start() {
         printMenuHeader();
-        User[] users = userManagementService.getUsers();
+        List<User> users = userManagementService.getUsers();
 
-        if (users.length == 0) {
+        if (users == null || users.isEmpty()) {
             System.out.println("Unfortunately, there are no customers.");
         } else {
             for (User user : users) {
                 System.out.println(user);
             }
         }
+        context.getMainMenu().start();
     }
 
     @Override
