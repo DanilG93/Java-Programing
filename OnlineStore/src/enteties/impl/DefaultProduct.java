@@ -36,5 +36,16 @@ public class DefaultProduct implements Product {
         return this.productName;
     }
 
+    @Override
+    public String getCategoryName() {
+        return this.categoryName;
+    }
+
+    @Override
+    public double getPrice() {
+        return this.price;
+    }
+
+
 
 }
