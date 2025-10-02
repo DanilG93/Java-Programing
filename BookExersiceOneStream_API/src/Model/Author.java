@@ -1,5 +1,7 @@
 package Model;
 
+import java.util.Objects;
+
 public class Author {
     private int id;
     private String firstName;
@@ -37,5 +39,17 @@ public class Author {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Author author = (Author) o;
+        return id == author.id && Objects.equals(firstName, author.firstName) && Objects.equals(lastName, author.lastName);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, firstName, lastName);
     }
 }
