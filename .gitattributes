@@ -1,0 +1,11 @@
+# Ignoriši sve JavaScript, CSS i HTML fajlove iz statistike jezika
+*.js linguist-vendored
+*.css linguist-vendored
+*.html linguist-vendored
+
+# Ako imaš neke biblioteke ili eksterne resurse, ignoriši i njih
+resources/** linguist-vendored
+assets/** linguist-vendored
+
+# Eksplicitno naglasi da je Java ono što želimo da vidimo
+*.java linguist-detectable=true
